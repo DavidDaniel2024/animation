@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            margin: 2px;
+            animation-name: david;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            animation-direction: reverse;
+        }
+
+        @keyframes david {
+            0% {
+                background-color: red;
+                
+            }
+
+            20% {
+                background-color: blue;
+                border-radius: 50px;
+                transform: translateX(350px);
+                
+            }
+
+            40% {
+                background-color: black;
+                transform: translateY(100px);
+            }
+
+            60% {
+                background-color: blueviolet;
+                transform: translateX(700px);
+            }
+        } */
+        .anime .h1{
+            background-color: red;
+            animation-name: h1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+         @keyframes h1{
+            from{
+                background-color: red;
+                transform: translate(1000px);
+            }
+            to{
+                background-color: bisque;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Animation is how smooth the item is moving in your browser
+    properties of Animation:
+    keyframes
+    animation-name: This is the name that will be use with the keyframes
+    animation-duration: This is how long the animation will run
+    animation delay: This is the number of seconds the animation will delay before it start
+    animation-iteration-count: this is the number of times you want the animation to run.
+    animation-timing-function: this is how smooth you want the animation to occur
+    animation-fill-mode: This is the position the animation will take at the end of the animation run -->
+    <!-- <div class="anime">
+        <h1 class="h1">animation 1</h1>
+        <h2 class="h2">animation 2</h2>
+    </div> -->
+    <div></div>
+</body>
+
+</html>
